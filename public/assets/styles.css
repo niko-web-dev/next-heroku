@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family: lacart;
+  src: url(/lacart.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'lacart';
+}
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+}
+.main{
+  background-image: url('/assets/images/bg.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.minimal_page,
+.restoran, 
+.tepl_obor, 
+.holod_obor,
+.your-teh-slugba {
+  overflow: overlay;
+  height: 100vh;
+}
+.your_teh_slugba {
+  width: 100%;
+  height: 100vh;
+}
+.your_teh_slugba_img{
+  width: 100%;
+  height: 100%;
+}
+
+.menu  img{
+  width: 300px;
+}
+
+
+/* .menuStyles_menu_link i */
